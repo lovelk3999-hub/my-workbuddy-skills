@@ -1,0 +1,12 @@
+{
+  "model_dir": "E:/ai/index-tts",
+  "venv_path": "E:/ai/index-tts/.venv/Scripts/python",
+  "ref_audio": "参考音色_最佳15s.wav",
+  "ref_audio_search_dirs": [".", "./references"],
+  "output_dir": "./outputs/tts",
+  "emo_alpha": 0.4,
+  "segments": [
+    ["01", "开场钩子", "聊起AI提效，你是不是觉得，AI帮你干活离你太远？", [0,0,0,0,0,0,0.4,0.6]],
+    ["02", "效果展示", "这是我的Word文档，这是我让豆包帮我转的PDF，效果还不错吧？", [0.5,0,0,0,0,0,0.3,0.2]]
+  ]
+}

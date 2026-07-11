@@ -1,0 +1,10 @@
+# 本地配置（含模型路径等个人信息），不要提交
+config.local.*
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+
+# 音频输出
+outputs/
+*.wav
