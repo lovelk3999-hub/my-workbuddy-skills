@@ -1,0 +1,6 @@
+{
+  "secret_id": "your_tencent_cloud_secret_id",
+  "secret_key": "your_tencent_cloud_secret_key",
+  "region": "ap-shanghai",
+  "instance_id": "hai-xxxxxxxx"
+}
