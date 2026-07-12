@@ -1,0 +1,4 @@
+interface:
+  display_name: "HAI FLF2V Runner"
+  short_description: "Run Wan2.1 first-last-frame jobs on Tencent HAI"
+  default_prompt: "Use the HAI FLF2V Runner workflow to prepare, run, poll, download, clean, and stop a Wan2.1 first-last-frame job."

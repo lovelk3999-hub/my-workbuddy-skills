@@ -1,6 +1,0 @@
-# 本地配置（含凭据），不要提交
-config.local.*
-
-# Python 编译缓存
-__pycache__/
-*.pyc
