@@ -1,0 +1,35 @@
+{
+  "comfy_port": 6889,
+  "command_port": 6888,
+  "remote_comfy_dir": "/home/ubuntu/ComfyUI",
+  "workflow_template": "templates/flf2v_api_workflow.json",
+  "default_settings": {
+    "width": 720,
+    "height": 1280,
+    "frames": 33,
+    "fps": 16,
+    "steps": 12,
+    "cfg": 5.5,
+    "seed": 4217,
+    "sampler_name": "uni_pc",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "batch_size": 1,
+    "webp_quality": 90,
+    "webp_lossless": false,
+    "webp_method": "default",
+    "clip_type": "wan",
+    "clip_crop": "center",
+    "diffusion_model": "wan2.1_flf2v_720p_14B_fp16.safetensors",
+    "diffusion_weight_dtype": "fp8_e4m3fn",
+    "text_encoder": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "clip_vision": "clip_vision_h.safetensors",
+    "vae": "wan_2.1_vae.safetensors"
+  },
+  "poll": {
+    "interval_seconds": 10,
+    "slow_after_seconds": 120,
+    "slow_interval_seconds": 30,
+    "timeout_seconds": 2700
+  }
+}

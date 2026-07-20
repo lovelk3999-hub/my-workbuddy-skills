@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+config/haimgr.json
+video_projects/
+*.webp
+*.mp4
